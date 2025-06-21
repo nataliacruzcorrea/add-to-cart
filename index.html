@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FABLE STORE</title>
+
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <span class="top-bar first">FRETE GRÁTIS PARA SUDESTE</span>
+      <div class="header-middle">
+        <img class="logo" src="assets/images/Logo.png" alt="Logo" />
+        <div class="category-container">
+          <span class="category">COLLECTIONS</span>
+          <span class="category">CUSTOMIZER</span>
+          <span class="category">SALE</span>
+        </div>
+        <div class="icons-container">
+          <img
+            class="profile-icon"
+            src="assets/icons/user-circle.svg"
+            alt="profile"
+          />
+          <div class="minicart-icon-container">
+            <img
+              class="minicart-icon"
+              src="assets/icons/shopping-bag.svg"
+              alt="minicart"
+            />
+            <span class="minicart-count">0</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="category-title">FABLE OF KLASSIK</h1>
+
+      <div class="order-by-container">
+        <span class="category-name">Jackets KLS All</span>
+
+        <div class="order-by">
+          <span class="filter-ordination order-by">
+            <label for="filter-name">Order by:</label>
+              <select id="filter">
+                <option value="select">Select</option>
+                <option value="high-price">Highest price</option>
+                <option value="low-price">Lowest price</option>
+              </select>
+           </span>
+        </div>
+      </div>
+
+      <div class="total-products">
+        <div class="product-container">
+          <img class="product-image" src="assets/images/Foto (1).png" alt="" />
+          <p class="product-name">Jacket KLS Beige</p>
+          <div class="product-price-container">
+            <p class="euro">€<p class="product-price">299,90</p></p>
+            <p class="product-installments">10x 29,90</p>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+
+        <div class="product-container">
+          <img class="product-image" src="assets/images/Foto (2).png" alt="" />
+          <p class="product-name">Jacket KLS Black</p>
+          <div class="product-price-container">
+            <p class="euro">€<p class="product-price">399,90</p></p>
+            <p class="product-installments">
+              10x <span class="product-installments-price">39,90</span>
+            </p>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+
+        <div class="product-container">
+          <img class="product-image" src="assets/images/Foto (3).png" alt="" />
+          <p class="product-name">Jacket KLS Graphite</p>
+          <div class="product-price-container">
+            <p class="euro">€<p class="product-price">149,90</p></p>
+            <p class="product-installments">10x 14,90</p>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+
+        <div class="product-container">
+          <img class="product-image" src="assets/images/Foto (4).png" alt="" />
+          <p class="product-name">Jacket KLS Blue</p>
+          <div class="product-price-container">
+            <p class="euro">€<p class="product-price">199,90</p></p>
+            <p class="product-installments">10x 19,90</p>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+
+        <div class="product-container">
+          <img class="product-image" src="assets/images/Foto (5).png" alt="" />
+          <p class="product-name">Jacket KLS Yellow</p>
+          <div class="product-price-container">
+            <p>€<p class="product-price">249,90</p></p>
+            <p class="product-installments">10x 24,90</p>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+      </div>
+    </main>
+
+    <div class="minicart-overflow">
+      <div class="minicart">
+        <div class="minicart-top">
+          <h1 class="minicart-title-top">Calculate</h1>
+          <img class="close-btn" src="/assets/icons/x.svg" alt="fechar">
+        </div>
+        <div class="minicart-product-container"></div>
+        <div class="minicart-bottom">
+          <span class="btn-delivery">calcular frete</span>
+          <div class="minicart-subtotal">
+            <span>Subtotal</span>
+            <span class="euro">€<span class="total">0,00</span></span>
+          </div>
+          <div class="minicart-delivery">
+            <span>Frete</span>
+            <span class="euro">€<span class="total">0,00</span></span>
+          </div>
+          <div class="minicart-total">
+            <span>Total</span>
+            <span class="euro">€<span class="total">0,00</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
