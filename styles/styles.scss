@@ -253,6 +253,7 @@ main {
 
     .close-btn {
       width: 30px;
+      cursor: pointer;
     }
   }
 
@@ -420,9 +421,10 @@ main {
       text-transform: uppercase;
     }
 
-    .sucess-cep,
-    .invalid-caracteres,
-    .invalid-cep {
+    .loading-zip,
+    .success-zip,
+    .invalid-characters,
+    .invalid-zip {
       span {
         justify-content: center;
         display: flex;

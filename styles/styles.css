@@ -248,6 +248,7 @@ main .total-products .product-container .product-btn:hover {
 }
 .minicart .minicart-top .close-btn {
   width: 30px;
+  cursor: pointer;
 }
 .minicart .minicart-product-container {
   display: flex;
@@ -393,9 +394,10 @@ main .total-products .product-container .product-btn:hover {
   text-align: center;
   text-transform: uppercase;
 }
-.minicart .minicart-bottom .sucess-cep span,
-.minicart .minicart-bottom .invalid-caracteres span,
-.minicart .minicart-bottom .invalid-cep span {
+.minicart .minicart-bottom .loading-zip span,
+.minicart .minicart-bottom .success-zip span,
+.minicart .minicart-bottom .invalid-characters span,
+.minicart .minicart-bottom .invalid-zip span {
   justify-content: center;
   display: flex;
   font-weight: 600;
